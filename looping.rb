@@ -21,9 +21,7 @@ def fizzbuzz(num)
 end
 
 def fizzbuzz_printer
-  (1..100).each do |i| 
-    puts fizzbuzz(i) 
-  end 
+  (1..100).each { |i| puts fizzbuzz(i) } 
 end
 
 def reverse_string(str)
